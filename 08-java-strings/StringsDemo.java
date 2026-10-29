@@ -1,7 +1,10 @@
 public class StringsDemo {
     public static void main(String[] args) {
-        // Creating a Java string using a new keyword
-        String str = new String("Vishruth Gowda");
+        String name = "Vishruth"; // String literal (Static Memory)
+        System.out.println("Name: " + name);
+
+        // Creating a Java string using a new keyword (Heap Memory)
+        String str = new String("Virat Kohli");
         System.out.println(str);
     }
 }
